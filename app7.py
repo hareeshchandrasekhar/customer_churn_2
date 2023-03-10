@@ -8,7 +8,7 @@ Created on Wed Mar  8 16:13:22 2023
 import numpy as np
 import pickle
 import pandas as pd
-
+import sklearn
 import streamlit as st 
 
 from PIL import Image
