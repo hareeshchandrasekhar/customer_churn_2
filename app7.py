@@ -13,7 +13,7 @@ import streamlit as st
 
 from PIL import Image
 
-pickle_in = open(r"C:\Users\excel\Downloads\hari doubts\model_df_smott.pkl","rb")
+pickle_in = open(r"model_df_smott.pkl","rb")
 model_df_smott=pickle.load(pickle_in)
 
 def welcome():
